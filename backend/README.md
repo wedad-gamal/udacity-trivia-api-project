@@ -11,16 +11,16 @@ To use this project you should already have Python3, pip and node installed on t
 
 1. Initialize and activate a virtualenv using:
 
-```
-python -m virtualenv env
-source env/bin/activate
-```
+   ```
+   python -m virtualenv env
+   source env/bin/activate
+   ```
 
-> **Note** - In Windows, the `env` does not have a `bin` directory. Therefore, you'd use the analogous command shown below:
+   > **Note** - In Windows, the `env` does not have a `bin` directory. Therefore, you'd use the analogous command shown below:
 
-```
-source env/Scripts/activate
-```
+   ```
+   source env/Scripts/activate
+   ```
 
 2. From the backend folder run
 
