@@ -333,7 +333,7 @@ Errors are returned as JSON objects in the following format:
 
 ## Authors
 
-Yours Wedad
+Yours Wedad, Udacity team.
 
 ## Acknowledgements
 
