@@ -9,7 +9,20 @@ To use this project you should already have Python3, pip and node installed on t
 
 ## Backend
 
-1. From the backend folder run
+1. Initialize and activate a virtualenv using:
+
+```
+python -m virtualenv env
+source env/bin/activate
+```
+
+> **Note** - In Windows, the `env` does not have a `bin` directory. Therefore, you'd use the analogous command shown below:
+
+```
+source env/Scripts/activate
+```
+
+2. From the backend folder run
 
    ```
    pip install requirements.txt.
@@ -17,7 +30,7 @@ To use this project you should already have Python3, pip and node installed on t
 
    All required packages are included in the requirements file.
 
-2. To run the application run the following commands:
+3. To run the application run the following commands:
    ```
    export FLASK_APP=flaskr
    export FLASK_ENV=development
